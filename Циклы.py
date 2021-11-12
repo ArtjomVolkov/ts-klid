@@ -90,8 +90,121 @@
 #a=float(input("Введите A =>"))
 #b=float(input("Введите B =>"))
 #Задание 8
-a=input("Купи слона!")
-while a.lower() !="слон":
-	a=input("Все говорят" +a+"!А ты купи!!!")
-print("Слон твой!")
+#a=input("Купи слона!")
+#while a.lower() !="слон":
+#	a=input("Все говорят" +a+"!А ты купи!!!")
+#print("Слон твой!")
+#print()
+#a=int(input("Введите цифру =>"))
+#for i in range(1,10):
+#	print(a,"*",i,"=",a*i)
+#Задание 15
+#for j in range(0,3):
+#	for i in range(0,10):
+#		print(i,end=" ")
+#	print()
+#print()
+#for g in range(1,10):
+#	for i in range(1,10):
+#		print(f"{(g*i):2}",end=" ")
+#	print()
+#for j in range(1,10):
+#	for i in range(1,10):
+#		if i==j:
+#			print(i,end=" ")
+#		else:
+#			print("0",end=" ")
+#	print()
 
+for j in range(0,10):
+	for k in range(0,1):
+		print("x",end=" ")
+	for i in range(1,10):
+		if i==j:
+			print("x",end=" ")
+		else:
+			print("0",end=" ")
+	print()
+#print("Игра мини лотерея!")
+#from random import *
+#game=0
+#computer=randint(0,10)
+#print("Компьютер загадал число!")
+#while (game==0):
+#	user=int(input("Напишите число =>"))
+#	if (user==1 or user==2 or user==3 or user==4 or user==5 or user==6 or user==7 or user==8 or user==9):
+#		game=1
+#if user==1:
+#	print("Игрок => 1")
+#if user==2:
+#	print("Игрок => 2")
+#if user==3:
+#	print("Игрок => 3")
+#if user==4:
+#	print("Игрок => 4")
+#if user==5:
+#	print("Игрок => 5")
+#if user==6:
+#	print("Игрок => 6")
+#if user==7:
+#	print("Игрок => 7")
+#if user==8:
+#	print("Игрок => 8")
+#if user==9:
+#	print("Игрок => 9")
+#if computer==1:
+#	print("Компьютер => 1")
+#if computer==2:
+#	print("Компьютер => 2")
+#if computer==3:
+#	print("Компьютер => 3")
+#if computer==4:
+#	print("Компьютер => 4")
+#if computer==5:
+#	print("Компьютер => 5")
+#if computer==6:
+#	print("Компьютер => 6")
+#if computer==7:
+#	print("Компьютер => 7")
+#if computer==8:
+#	print("Компьютер => 8")
+#if computer==9:
+#	print("Компьютер => 9")
+#if user==1 and computer==1:
+#	win=1
+#if user==2 and computer==2:
+#	win=2
+#if user==3 and computer==3:
+#	win=3
+#if user==4 and computer==4:
+#	win=4
+#if user==5 and computer==5:
+#	win=5
+#if user==6 and computer==6:
+#	win=6
+#if user==7 and computer==7:
+#	win=7
+#if user==8 and computer==8:
+#	win=8
+#if user==9 and computer==9:
+#	win=9
+#if win==1:
+#	print("Угадал число!Поздравляю!")
+#if win==2:
+#	print("Угадал число!Поздравляю!")
+#if win==3:
+#	print("Угадал число!Поздравляю!")
+#if win==4:
+#	print("Угадал число!Поздравляю!")
+#if win==5:
+#	print("Угадал число!Поздравляю!")
+#if win==6:
+#	print("Угадал число!Поздравляю!")
+#if win==7:
+#	print("Угадал число!Поздравляю!")
+#if win==8:
+#	print("Угадал число!Поздравляю!")
+#if win==9:
+#	print("Угадал число!Поздравляю!")
+#else:
+#	print("Не угадал!")

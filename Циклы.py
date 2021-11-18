@@ -116,15 +116,15 @@
 #			print("0",end=" ")
 #	print()
 
-for j in range(0,10):
-	for k in range(0,1):
-		print("x",end=" ")
-	for i in range(1,10):
-		if i==j:
-			print("x",end=" ")
-		else:
-			print("0",end=" ")
-	print()
+#for j in range(0,10):
+#	for k in range(0,1):
+#		print("x",end=" ")
+#	for i in range(1,10):
+#		if i==j:
+#			print("x",end=" ")
+#		else:
+#			print("0",end=" ")
+#	print()
 #print("Игра мини лотерея!")
 #from random import *
 #game=0
@@ -208,3 +208,94 @@ for j in range(0,10):
 #	print("Угадал число!Поздравляю!")
 #else:
 #	print("Не угадал!")
+#from random import *
+#F=randint(1,10)
+#T=1
+#S=int(input("Arvake ära täisarv 1 kuni 10 =>"))
+#while S!=F:
+#    S=int(input("Palun proovi uuesti =>"))
+#    if S<F:
+#        print("Teie number on väiksem, kui arvuti ette nägi")
+#        T +=1
+#    elif S>F:
+#        print("Teie number on suurem, kui arvuti ette nägi")
+#        T +=1
+#    else:
+#        print("Õnnitleme, arvasid ära")
+#        T +=1
+#print("Number oli",S)
+#print("Kui palju katseid oli",T)
+#print()
+#p=n=""
+#while type(p)!=int:
+#	try:
+#			p=int(input("Сколько чисел вы хотите ввести? =>"))
+#	except ValueError:
+#			print("Не является цифрой!")
+#if p>0:
+#	n=int(input("Какое число вводим? =>"))
+#	p-=1
+#	max=n
+#	while p>0:
+#		p-=1
+#		n=int(input("Какое число вводим? =>"))
+#		if n>max: max=n
+#	print("Максимально число =>",max)
+#else:
+#	print("Не можем найти максимум!")
+#km=s_pikkus=10
+#print("1. päeval pikkus oli",km)
+#print("terve tee pikkus oli",round(s_pikkus,2))
+#for day in range(2,8):
+#	km*=1.1
+#	print(day,". päeval pikkus oli",round(km,2))
+#	s_pikkus+=km
+#	print("terve tee pikkus oli",round(s_pikkus,2))
+#from random import *
+#m=randint(100,1000)
+#print("В магазине",m,"метров")
+#while m>0:
+#	a=int(input("Сколько нужно купить ткани? =>"))
+#	if m>=a:
+#		m-=a
+#		print("Осталось",m,"метров")
+#	else:
+#		print("Хотите больше,чем у нас")
+#		v=input("Хотите купить остаток? =>")
+#		if v=="да":
+#			print("Ткань ваша")
+#			m=0
+#		else:
+#			print("Не хочешь,как хочешь")
+#print("Ничего нету!")
+#from keyboard import *
+#while True:
+# if is_pressed("esc"): break
+from keyboard import*
+a=0.0
+b=0.0
+h=0.0
+while True:
+ while type (a)!=int and a<=0:
+  try:
+   a=int(input("Введите a =>"))
+  except ValueError:
+   print("Введите число")
+ while type (b)!=int and b<=0:
+  try:
+   b=int(input("Введите b =>"))
+  except ValueError:
+   print("Введите число")
+ while type (h)!=int and h<=0:
+  try:
+   h=int(input("Введите h =>"))
+  except ValueError:
+   print("Введите число")
+ S=0.5*(a+b)*h
+ print("Площадь трапеции =>",S)
+ q=input("Продолжаем? =>")
+ if q!="да":quit()
+ #print("Продолжаем?")
+ #q=read_key()
+ #if q=="esc": quit()
+

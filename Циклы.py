@@ -297,5 +297,5 @@ while True:
  if q!="да":quit()
  #print("Продолжаем?")
  #q=read_key()
- #if q=="esc": quit()
+ #if q=="esc": quit()1
 
